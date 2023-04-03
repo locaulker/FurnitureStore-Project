@@ -13,3 +13,19 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* NAVBAR */
+.container {
+  display: grid;
+  grid-template-columns: minmax(6rem, 1fr) repeat(8, minmax(min-content, 16rem)) minmax(
+      6rem,
+      1fr
+    );
+  grid-template-rows: repeat(3, min-content);
+  grid-row-gap: 1.6rem;
+}
+
+.social-icons {
+  grid-column: 2 / 4;
+}
+/* END NAVBAR */
