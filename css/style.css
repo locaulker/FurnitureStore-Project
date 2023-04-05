@@ -105,7 +105,7 @@ h6 {
   transition: width 0.4s cubic-bezier(0.55 0 0.98 0.54);
 }
 .first-nav-link:hover::after {
-  width: 100%;
+  width: 60%;
 }
 
 .first-nav-link span {
@@ -115,5 +115,30 @@ h6 {
 .first-nav-link i {
   font-size: 1.3rem;
   margin-right: 0.3rem;
+}
+
+.search {
+  grid-column: 8 / 10;
+  grid-row: 2 / 3;
+}
+.search-form {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+}
+.search-input {
+  grid-column: 3 / -1;
+  grid-row: 1 / 2;
+  padding: 0.3rem 0.4rem;
+  font-size: 1.3rem;
+  border: none;
+  border-bottom: 0.1rem solid #123768;
+  outline: none;
+}
+.search-btn {
+  grid-column: 10 / -1;
+  grid-row: 1 / 2;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 /* END NAVBAR */
