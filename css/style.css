@@ -138,8 +138,9 @@ h6 {
   grid-row: 1 / 2;
   padding: 0.3rem 0.4rem;
   font-size: 1.3rem;
-  border: none;
-  border-bottom: 0.1rem solid #12376e;
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid #12376e;
+  border-radius: 10rem;
   outline: none;
 }
 
